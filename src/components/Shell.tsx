@@ -17,7 +17,7 @@ export function Shell({ children, title, subtitle }: { children: ReactNode; titl
         <div className="flex items-center gap-3 px-5 py-5 border-b border-sidebar-border">
           <div className="grid h-10 w-10 place-items-center rounded-md bg-white overflow-hidden">
           <img 
-            src="/images/logo bappeda.jpg" 
+            src="/images/logo_bappeda.jpg" 
             alt="Logo BAPPEDA Kota Depok" 
             className="h-8 w-8 object-contain"
           />
