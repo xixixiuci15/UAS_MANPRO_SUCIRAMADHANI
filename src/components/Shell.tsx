@@ -1,3 +1,4 @@
+import logoBappeda from "@/assets/logo-bappeda.jpg";
 import { Link, useRouterState } from "@tanstack/react-router";
 import { LayoutDashboard, MapPin, FileBarChart2, BarChart3, CheckCircle2 } from "lucide-react";
 import { LAST_SYNC } from "@/lib/simonev-data";
@@ -15,13 +16,13 @@ export function Shell({ children, title, subtitle }: { children: ReactNode; titl
     <div className="flex min-h-screen w-full bg-background">
       <aside className="hidden md:flex w-64 shrink-0 flex-col bg-sidebar text-sidebar-foreground">
         <div className="flex items-center gap-3 px-5 py-5 border-b border-sidebar-border">
-          <div className="grid h-10 w-10 place-items-center rounded-md bg-white overflow-hidden">
+        <div className="grid h-10 w-10 place-items-center rounded-md bg-white overflow-hidden">
           <img 
-            src="/images/logo_bappeda.jpg" 
+            src={logoBappeda} 
             alt="Logo BAPPEDA Kota Depok" 
             className="h-8 w-8 object-contain"
           />
-          </div>
+        </div>  
           <div>
             <div className="text-[11px] uppercase tracking-wider opacity-80">BAPPEDA Kota Depok</div>
             <div className="font-semibold leading-tight">SIMONEV-KD</div>
